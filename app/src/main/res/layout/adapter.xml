@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/grey_test"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="Title"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="Content"
+        android:textColor="	#FF4500"
+        android:textSize="18dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="@string/strike"
+        android:textColor="	#808080"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="Content"
+        android:textColor="	#808080"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+</LinearLayout>
